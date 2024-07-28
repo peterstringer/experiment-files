@@ -1,0 +1,9 @@
+This example has 9 nodes.
+There are 4 failing action(s) pairs: 
+{(1, 2): (1, 5), (4, 1): (4, 4), (5, 8): (5, 5), (8, 4): (8, 6)}
+
+The agent should navigate through checkpoints: 
+[0, 8, 1, 2, 3]
+
+Using the route plan: 
++!at(4)[perform], +!at(8)[perform], print("Visited Checkpoint 1"), +!at(5)[perform], +!at(1)[perform], print("Visited Checkpoint 2"), +!at(2)[perform], print("Visited Checkpoint 3"), +!at(1)[perform], +!at(3)[perform], print("Visited Checkpoint 4")

@@ -1,0 +1,6 @@
+env = gwendolen.failuredetection.hallway.syntheticexamples._31._31
+mas.file = /home/m34885ps/IdeaProjects/mcapl/src/examples/gwendolen/failuredetection/hallway/syntheticexamples/_31/31.gwen
+mas.builder = gwendolen.GwendolenMASBuilder
+log.warning = ail.semantics.AILAgent
+log.warning = ajpf.util.AJPFLogger
+suppress_version = true

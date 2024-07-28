@@ -1,0 +1,6 @@
+This example has 6 nodes.
+There are 1 failing action(s) pairs: 
+{(5, 3): (5, 2)}
+
+Using the route plan: 
++!route [perform] : {B at(2)} <- +!at(5)[achieve], +!at(6)[achieve], take_picture, print("Picture Taken"), +!at(5)[achieve], +!at(2)[achieve], print(" OOOOOOOOOO SUCCESS OOOOOOOOOO"), done;

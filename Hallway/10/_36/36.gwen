@@ -1,0 +1,22 @@
+GWENDOLEN
+:name: Rover
+:Initial Beliefs:
+:Initial Goals:
+route [perform]
+:Plans:
++!route [perform] : {B at(2)} <- +!at(5)[achieve], +!at(6)[achieve], take_picture, print("Picture Taken"), +!at(5)[achieve], +!at(2)[achieve], print(" OOOOOOOOOO SUCCESS OOOOOOOOOO"), done;
++!at(4) [achieve] : {B at(1)} <- move(1,4);
++!at(5) [achieve] : {B at(1)} <- move(1,5);
++!at(3) [achieve] : {B at(2)} <- move(2,3);
++!at(5) [achieve] : {B at(2)} <- move(2,5);
++!at(2) [achieve] : {B at(3)} <- move(3,2);
++!at(5) [achieve] : {B at(3)} <- move(3,5);
++!at(1) [achieve] : {B at(4)} <- move(4,1);
++!at(5) [achieve] : {B at(4)} <- move(4,5);
++!at(1) [achieve] : {B at(5)} <- move(5,1);
++!at(2) [achieve] : {B at(5)} <- move(5,2);
++!at(3) [achieve] : {B at(5)} <- move(5,3);
++!at(4) [achieve] : {B at(5)} <- move(5,4);
++!at(5) [achieve] : {B at(6)} <- move(6,5);
++!at(6) [achieve] : {B at(5)} <- move(5,6);
++!take_picture [achieve] : {B at(6)} <- take_picture;
